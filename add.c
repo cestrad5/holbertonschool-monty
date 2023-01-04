@@ -27,6 +27,5 @@ void add_func(stack_t **stack, unsigned int line)
 	result = first + second;
 
 	pop_func(stack, line);
-
 	(*stack)->n = result;
 }
